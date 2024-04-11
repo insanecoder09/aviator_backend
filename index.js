@@ -24,8 +24,8 @@ const keyDetails = {
     },
     "yet-kgt-eit": {
         name: "Lali",
-        isActive: false,
-        activateTime: "",
+        isActive: true,
+        activateTime: "Thu Apr 11 2024 21:58:43 GMT+0530 (India Standard Time)",
         validity: 3
     },
 }
