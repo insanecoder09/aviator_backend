@@ -38,7 +38,7 @@ const keyDetails = {
     },
     "nhy-fht-ltc": {
         name: "Vivek Lodu 2",
-        isActive: false,
+        isActive: true,
         activateTime: "Fri Apr 12 2024 18:38:05 GMT+0530 (India Standard Time)",
         validity: 20
     },
