@@ -12,8 +12,8 @@ const keys = [
 const keyDetails = {
     "dht-dct-ksy": {
         name: "Vivek",
-        isActive: true,
-        activateTime: "Thu Apr 11 2024 22:26:56 GMT+0530 (India Standard Time)",
+        isActive: false,
+        activateTime: "Tue Apr 07 2024 19:47:49 GMT+0530 (India Standard Time)",
         validity: 1
     },
     "ahr-dhv-eut": {
@@ -24,8 +24,8 @@ const keyDetails = {
     },
     "yet-kgt-eit": {
         name: "Lali",
-        isActive: true,
-        activateTime: "Thu Apr 11 2024 21:58:43 GMT+0530 (India Standard Time)",
+        isActive: false,
+        activateTime: "",
         validity: 3
     },
 }
@@ -52,6 +52,14 @@ const timeValidater = (keyTime, keyValidity) => {
         message: 'Check the Key in Local Storage',
         timeSpent: timeSpent
     }
+}
+
+const btw12 = () => {
+    var num = ((Math.random() * 2)).toFixed()
+    if(num==0)
+    num = btw12();
+
+    return num;
 }
 
 app.get('/', (req, res) => {
@@ -82,7 +90,7 @@ app.get('/keyCheck/:key', (req, res) => {
 
 app.get('/newPrediction/:key', (req, res) => {
     if (keys.includes(req.params.key)) {
-        const Prediction = ((Math.random()*3)+1).toFixed(2)
+        const Prediction = btw12()==1?'BIG':'SMALL';
         res.send(Prediction);
     }
     else res.send('0')
