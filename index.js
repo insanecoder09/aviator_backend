@@ -7,6 +7,7 @@ const keys = [
     "dht-dct-ksy",
     "ahr-dhv-eut",
     "yet-kgt-eit",
+    "hgt-str-khy",
 ]
 
 const keyDetails = {
