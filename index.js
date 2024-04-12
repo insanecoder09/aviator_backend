@@ -28,6 +28,12 @@ const keyDetails = {
         activateTime: "",
         validity: 3
     },
+    "hgt-str-khy": {
+        name: "Vivek Lodu",
+        isActive: false,
+        activateTime: "Fri Apr 12 2024 18:38:05 GMT+0530 (India Standard Time)",
+        validity: 20
+    },
 }
 
 app.use(cors());
