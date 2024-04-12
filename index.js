@@ -8,13 +8,14 @@ const keys = [
     "ahr-dhv-eut",
     "yet-kgt-eit",
     "hgt-str-khy",
+    "nhy-fht-ltc",
 ]
 
 const keyDetails = {
     "dht-dct-ksy": {
         name: "Vivek",
-        isActive: true,
-        activateTime: "Fri Apr 11 2024 23:55:05 GMT+0530 (India Standard Time)",
+        isActive: false,
+        activateTime: "Tue Apr 07 2024 19:47:49 GMT+0530 (India Standard Time)",
         validity: 1
     },
     "ahr-dhv-eut": {
@@ -32,6 +33,12 @@ const keyDetails = {
     "hgt-str-khy": {
         name: "Vivek Lodu",
         isActive: true,
+        activateTime: "Fri Apr 12 2024 18:38:05 GMT+0530 (India Standard Time)",
+        validity: 20
+    },
+    "nhy-fht-ltc": {
+        name: "Vivek Lodu 2",
+        isActive: false,
         activateTime: "Fri Apr 12 2024 18:38:05 GMT+0530 (India Standard Time)",
         validity: 20
     },
