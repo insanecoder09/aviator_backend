@@ -14,9 +14,9 @@ const keys = [
 const keyDetails = {
     "dht-dct-ksy": {
         name: "Vivek",
-        isActive: false,
-        activateTime: "Tue Apr 07 2024 19:47:49 GMT+0530 (India Standard Time)",
-        validity: 1
+        isActive: true,
+        activateTime: "Tue Jun 18 2024 19:47:49 GMT+0530 (India Standard Time)",
+        validity: 180
     },
     "ahr-dhv-eut": {
         name: "Lala",
